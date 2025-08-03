@@ -1,3 +1,5 @@
+import art
+
 def Addition (n1,n2):
     return n1+n2
 
@@ -20,6 +22,7 @@ operation ={
 
 
 def calculation():
+    print(art.logo)
     num1=float(input("enter first number?: "))
 
     should_accomulate = True
